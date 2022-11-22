@@ -6,6 +6,30 @@
 }
 
 .guess {
-  width: 200px;
+  width: 335px;
   height: 200px;
+  margin-bottom: 20px;
+
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+button + button {
+  margin-left: 20px;
+}
+
+.errada {
+    color:red;
+    font-size: 24px;
+    text-align: center;
+}
+
+.correta {
+  color:green;
+  font-size: 24px;
+  text-align: center;
 }
